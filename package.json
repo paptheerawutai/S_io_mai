@@ -122,7 +122,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "echo \"No build step necessary\""
+    "build": "echo \"No build step necessary\"",
+    "prestart": "npm install"
   },
   "keywords": [],
   "author": "",
