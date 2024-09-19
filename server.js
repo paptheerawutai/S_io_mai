@@ -18,11 +18,11 @@
 // const port = process.env.PORT || 5005;
 // server.listen(port, () => console.log(`Server is running on port ${port}`));
 
-const express = require('express');
-const http = require('http');
-const { Server } = require('socket.io');
-const axios = require('axios'); // ใช้ axios สำหรับดึงข้อมูลจาก API
-const mqtt = require('mqtt');  // เพิ่ม mqtt
+import express from 'express';
+import http from 'http';
+import  Server  from 'socket.io';
+import axios from 'axios'; // ใช้ axios สำหรับดึงข้อมูลจาก API
+import mqtt from 'mqtt';  // เพิ่ม mqtt
 
 const app = express();
 const server = http.createServer(app);
